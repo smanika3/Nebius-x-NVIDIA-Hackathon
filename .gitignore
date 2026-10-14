@@ -1,0 +1,17 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+*.env
+*.env.*
+!.env.example
+
+# Python virtualenvs and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Spike directory
+Sai-Check/spike/
